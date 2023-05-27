@@ -226,9 +226,18 @@ body {
     width: 264px;
 }
 
-.benefits-icon{
-    
+.icon-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 112px;
+    background-color: var(--color-cloud);
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
+
+.benefits-icon{}
 
 .first-subtitle {
     font-weight: 500;
@@ -349,7 +358,7 @@ body {
 }
 
 .team-icon{
-    fill: var(--color-cloud);
+    /* fill: var(--color-cloud); */
 }
 
 .team-link:hover,
