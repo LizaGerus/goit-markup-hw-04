@@ -358,13 +358,31 @@ body {
 }
 
 .team-icon{
-    /* fill: var(--color-cloud); */
+    fill: var(--color-cloud);
 }
 
 .team-link:hover,
 .team-link:focus{
     background-color: var(--color-ocean);
 }
+
+/* Customers */
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-title {
+    text-align: center;
+}
+
+.customers-list {}
+
+.customers-item {}
+
+.customers-link {}
+
+.customers-icon {}
 
 /* Footer */
 .footer {
